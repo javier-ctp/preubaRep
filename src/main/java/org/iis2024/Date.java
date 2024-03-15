@@ -16,6 +16,13 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
+
+  public Date(int dia, int mes,int año){
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
+  }
+
   private  int  CreatedByMe;
   private final int day;
   private final int month;
