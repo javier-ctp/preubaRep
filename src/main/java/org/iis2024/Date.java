@@ -16,7 +16,18 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
+<<<<<<< HEAD
   private  int  CreatedByMegit ;
+=======
+
+  public Date(int dia, int mes,int año){
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
+  }
+
+  private  int  CreatedByMe;
+>>>>>>> a7b83989f3b97b9769fed745a5f046c8850878f6
   private final int day;
   private final int month;
   private final int year;
